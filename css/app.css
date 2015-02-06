@@ -276,6 +276,14 @@ input[type="checkbox"], input[type="radio"] {
   padding: 0;
 }
 
+/* line 1, ../sass/base/_base.scss */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
 /* SCSS port of CSS at http://htmldog.com/articles/suckerfish/dropdowns/ */
 /* Built with compass http://www.compass-style.org */
 /* Generates the styles for suckerfish dropdowns */
@@ -293,3 +301,74 @@ input[type="checkbox"], input[type="radio"] {
 
    Be sure to minify before deploying to production.
 */
+/* line 1, ../sass/module/_grids.scss */
+.l-container {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/* line 1, ../sass/layout/_header.scss */
+.header {
+  height: 2.5em;
+  background-color: #689F38;
+  overflow: hidden;
+  *zoom: 1;
+  color: #FFF;
+  text-align: center;
+}
+/* line 7, ../sass/layout/_header.scss */
+.header h2 {
+  padding: 0.2em;
+  margin: 0;
+}
+
+/* line 1, ../sass/layout/_slider.scss */
+.slider {
+  height: 25em;
+  width: 100%;
+  margin: 0;
+  background-color: #8BC34A;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 7, ../sass/layout/_slider.scss */
+.slider .banner {
+  text-align: center;
+  color: #FFF;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+/* line 13, ../sass/layout/_slider.scss */
+.slider .banner ul {
+  overflow: hidden;
+  *zoom: 1;
+  list-style-type: none;
+  position: relative;
+  overflow: hidden;
+  margin: -2em 0 0 -2.5em;
+}
+/* line 19, ../sass/layout/_slider.scss */
+.slider .banner ul li {
+  text-align: center;
+  height: 27em;
+  margin: 2em 0;
+}
+/* line 24, ../sass/layout/_slider.scss */
+.slider .banner ul .sld1 {
+  background-color: #29B6F6;
+}
+/* line 27, ../sass/layout/_slider.scss */
+.slider .banner ul .sld2 {
+  background-color: #26C6DA;
+}
+/* line 30, ../sass/layout/_slider.scss */
+.slider .banner ul .sld3 {
+  background-color: #26A69A;
+}
+/* line 33, ../sass/layout/_slider.scss */
+.slider .banner ul .sld4 {
+  background-color: #CDDC39;
+}
