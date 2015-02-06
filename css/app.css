@@ -282,6 +282,7 @@ body {
   padding: 0;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
+  font-size: 16px;
 }
 
 /* SCSS port of CSS at http://htmldog.com/articles/suckerfish/dropdowns/ */
@@ -301,12 +302,11 @@ body {
 
    Be sure to minify before deploying to production.
 */
-/* line 1, ../sass/module/_grids.scss */
+/* line 1, ../sass/layout/_grids.scss */
 .l-container {
   width: 90%;
   margin: 0 auto;
-  overflow: hidden;
-  *zoom: 1;
+  padding: 0;
 }
 
 /* line 1, ../sass/layout/_header.scss */
@@ -353,22 +353,23 @@ body {
 /* line 19, ../sass/layout/_slider.scss */
 .slider .banner ul li {
   text-align: center;
+  width: 100%;
   height: 27em;
   margin: 2em 0;
 }
-/* line 24, ../sass/layout/_slider.scss */
+/* line 25, ../sass/layout/_slider.scss */
 .slider .banner ul .sld1 {
   background-color: #29B6F6;
 }
-/* line 27, ../sass/layout/_slider.scss */
+/* line 28, ../sass/layout/_slider.scss */
 .slider .banner ul .sld2 {
   background-color: #26C6DA;
 }
-/* line 30, ../sass/layout/_slider.scss */
+/* line 31, ../sass/layout/_slider.scss */
 .slider .banner ul .sld3 {
   background-color: #26A69A;
 }
-/* line 33, ../sass/layout/_slider.scss */
+/* line 34, ../sass/layout/_slider.scss */
 .slider .banner ul .sld4 {
   background-color: #CDDC39;
 }
