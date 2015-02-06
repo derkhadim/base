@@ -329,11 +329,12 @@ body {
   height: 25em;
   width: 100%;
   margin: 0;
+  text-align: center;
   background-color: #8BC34A;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 7, ../sass/layout/_slider.scss */
+/* line 8, ../sass/layout/_slider.scss */
 .slider .banner {
   text-align: center;
   color: #FFF;
@@ -341,7 +342,7 @@ body {
   padding: 0;
   width: 100%;
 }
-/* line 13, ../sass/layout/_slider.scss */
+/* line 14, ../sass/layout/_slider.scss */
 .slider .banner ul {
   overflow: hidden;
   *zoom: 1;
@@ -349,27 +350,29 @@ body {
   position: relative;
   overflow: hidden;
   margin: -2em 0 0 -2.5em;
+  width: 100%;
 }
-/* line 19, ../sass/layout/_slider.scss */
+/* line 21, ../sass/layout/_slider.scss */
 .slider .banner ul li {
   text-align: center;
   width: 100%;
   height: 27em;
   margin: 2em 0;
+  overflow: hidden;
 }
-/* line 25, ../sass/layout/_slider.scss */
+/* line 28, ../sass/layout/_slider.scss */
 .slider .banner ul .sld1 {
   background-color: #29B6F6;
 }
-/* line 28, ../sass/layout/_slider.scss */
+/* line 31, ../sass/layout/_slider.scss */
 .slider .banner ul .sld2 {
   background-color: #26C6DA;
 }
-/* line 31, ../sass/layout/_slider.scss */
+/* line 34, ../sass/layout/_slider.scss */
 .slider .banner ul .sld3 {
   background-color: #26A69A;
 }
-/* line 34, ../sass/layout/_slider.scss */
+/* line 37, ../sass/layout/_slider.scss */
 .slider .banner ul .sld4 {
   background-color: #CDDC39;
 }

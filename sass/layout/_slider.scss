@@ -2,6 +2,7 @@
   height: 25em;
   width: 100%;
   margin: 0;
+  text-align: center;
   background-color: #8BC34A;
   @include clearfix; 
   .banner {
@@ -15,12 +16,14 @@
       list-style-type: none;
       position: relative;
       overflow: hidden;
-      margin: -2em 0 0 -2.5em;;
+      margin: -2em 0 0 -2.5em;
+      width: 100%;
       li {
         text-align: center;
         width: 100%;
         height: 27em;;
         margin: 2em 0;
+        overflow: hidden;
       }
       .sld1 {
         background-color: #29B6F6;
